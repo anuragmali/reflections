@@ -1,0 +1,68 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+    diff command exactly points out the different lines and section in two files.
+    This becomes easy to read only few lines and get the entire file compared.
+    And as we know that previous version was working, we can point out lines which has caused problems
+    in current version.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+    Development over the period of time can cause lot of changes in a file. 
+    Sometimes after doing some change, we may want to revert to previous version.
+    So at that time having access to file modification history becomes important.
+    In a big project with lot of files involved and lot of changes done over the period of time,
+    access to file modification history becomes handy.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+    pros of manual commit
+    	- we can have logical purpose for every commit
+    	- system will not get cluttered with too many versions
+    cons of manual commit
+    	- user can forget to commit
+    	- error in judgement of commmit
+    pros of automatic commit
+    	- user dont need to remember the commit action
+    cons of automatic commit
+    	- system gets cluttered with so many meaningless commits
+    	
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+    I think git treat all files as a part of one project. And it saves multiple files in one commit because 
+    it wants to save all the files as a part of particular version of project. All files of a project are interrelated.
+    So it is better to save the snapshot of all files at the time of commit. This helps to identify all the related files
+    for a change in one file also.
+
+    Google doc does not consider files as a part of project, it treats each file as a seperate file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+    git diff <version id 1> <version id 2>  --> this command comapres 2 versions with version id and
+    displays the changes file by file
+
+    git log --> this command displays all the commits and details associated with every commit.
+    Details include time, date, author and message of commit
+    git log --stat 	--> this command gives extra statistics about commit like number of lines added, deleted in a commit
+    
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+    I can try and make different changes because in the end I have previous working version to which I can get back
+    if make somme mistake. I can also find out removal or addition of which line caused this problem
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+    I want to try how to collaborate to project using system. I also want learn how version
+    control system works and other important things necessary for project.
