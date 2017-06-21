@@ -14,11 +14,26 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+	- after making so many changes in working directory, I can comapre files in staging area
+	and in working directory using "git diff". Because of this it becomes easy to know what changes you have made
+	and we can add files which are related to one logical change to staging area.
+	- If we already add all changed files to staging area, we can comapre staging area with most recent commit
+	using "git diff -staged". and we can remove files from staging area which are not related to one logical change using 
+	"git reset <file name>". And then we can commit the changes.
+	
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	- There can be a situation where we may want to check some feature and we are not sure about it.
+	Also at the same timme we want to carry on the development in original project
+	In this case we can create a seperate branch from main branch to try that feature/ experiment
+	- branch can help us to perform our experiment without interfering to our original work.
+	
 How do the diagrams help you visualize the branch structure?
+	- diagram shows pictorial representation of where exactly branch is created. How we checkout the branch
+	and how commits are added to the branch we have checked out at the time of commit
+	- Diagram is also helpful to understand why new commits are lost when they are made after checking out on one of the
+	previous commit. This is also useful to know how we can preserve that commit by creating new branch at that point.
+	- Diagram is also helpful to understand the merge 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
