@@ -48,3 +48,10 @@ the diagram the way we do?
 	
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	- automatic merging pros : comapres two commits and deciedes which line to keep/remove based on explicit action (add/remove)
+	taken on that line with respect to the commit that was present before branches were created. This reduce the work of user
+	- automatic merging cons : it can not always deciede which line to keep/remove if two branches have modified lines differently 
+	in same area.
+	- manual merging pros : user can deciede which line to keep/remove based on various aspects of code. This provides
+	flexibility to user to resolve the merge conflicts
+	- manual merging cons : additional overhead for user to look into the code added by someone else
