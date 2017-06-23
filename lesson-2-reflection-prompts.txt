@@ -37,6 +37,14 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+	- merging the branch together will create a new commit with all chnages merged from the commits at the tip
+	of the branches we are merging
+	- in merge process, git compares the two commits at the tip of the branch with the commit just before creating
+	these branch.
+	- it keeps the chnages which are explicitly added by some user. It removes the changes which are explicitely removed
+	by some user and it merge the specified brnaches with the branch curently checked out
+	- we represent it in diagram because pictorial representaion gives us more idea about the creation of branches and purpose 
+	of changes made in branches
+	
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
