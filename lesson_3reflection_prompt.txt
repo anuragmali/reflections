@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  - when more than one contributors are working on the file at the same time from different locations
+  then it is easy to keep the repository at remote
+  - it helps to keep the backup of your local repository on cloud and people from git hub community can
+  view, suggest, contribute to your work which helps in overall developmet
